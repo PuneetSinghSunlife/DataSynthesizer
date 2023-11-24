@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    display: flex;
+    top: 30%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 200px;
+    width: 450px;
+    border: 3px solid #edcf0e;
+    padding: 10px;
+    height: 350px;
+    font-weight: bolder;
+  }
+  
+  .left-side h1{
+    flex: 1;
+    padding: 20px;
+    font-size: 4em;
+    display: flex;
+    top: 25%;
+    position: absolute;
+    left: 100px;
+  }
+  .left-side h4{
+    flex: 1;
+    padding: 20px;
+    font-size: 2em;
+    display: flex;
+    top: 35%;
+    position: absolute;
+    left: 100px;
+  }
+  
+  .left-side p {
+    flex: 1;
+    padding: 20px;
+    font-size: 1.5em;
+    display: flex;
+    top: 45%;
+    position: absolute;
+    left: 100px;
+  }
+  
+  .right-side {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-side h2 {
+    font-size: 1.5em;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #f7cc0a;
+    color: #131212;
+    border:#080808;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bolder;
+  }
+  
+  button:hover {
+    background-color: #337ab7;
+    transform: scale(1.05);
+    color: #fff;
+  }
+  
+  .button_about{
+    display: flex;
+    top: 5%;
+    margin: 0 auto;
+    position: absolute;
+    right: 200px;
+    background-color: #020202;
+    color: #ffffff;
+    border:#080808;
+    font-weight:bolder;
+    font-size: 15px;
+    
+  }
+  .button_contact{
+    display: flex;
+    top: 5%;
+    margin: 0 auto;
+    position: absolute;
+    right: 310px;
+    background-color: #020202;
+    color: #ffffff;
+    border:#080808;
+    font-weight:bolder;
+    font-size: 15px;
+    
+    
+  }
+  
